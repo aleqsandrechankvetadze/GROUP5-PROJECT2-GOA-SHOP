@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 99vh;
+    background-color: #c9d1c8;
+    font-family:"nunito"
+}
+
+/* nav bar style */
+#nav{
+    width: 100%;
+    height: 120px;
+    background-color: #304040;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* image style */
+#img-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+#nav-goa-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+/* lists and links style */
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.8s;
+}
+
+ul:hover{
+    transform: scale(1.2);
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+.links-a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    transition: 0.8s;
+}
+
+a:hover{
+    color: #c9d1c8;
+    transform: scale(1.2);
+}
+
+#nav-p{
+    color: white;
+    font-size: 25px;
+}
+
+#nav-btns-div{
+    margin-right: 100px;
+}
+
+/* btn's style */
+
+.register-btns-div{
+    font-size: 19px;
+    padding: 19px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.register-btns-div:hover{
+    transform: scale(1.15);
+}
+
+#register-btn{
+    background-color: white;
+    transition: 0.5s;
+}
+
+#login-btn{
+    background-color: #04202c;
+    color: white;
+    transition: 0.5s;
+}
+
+#register-btn:hover {
+    background-color: #04202c;
+    color: white;
+}
+
+#login-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+/* style main */
+
+#main{
+    width: 100%;
+    height: 82.6%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1{
+    color: black;
+    font-size: 35px;
+}
+
+#info-about-us1{
+    font-size: 23px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#nika-img-div{
+    display: flex;
+    align-items: center;
+}
+
+#main-nika-img{
+    width: 500px;
+    height: 400px;
+    transition: 0.5s;
+    border-radius:25%;
+    cursor: pointer;
+    position: relative;
+}
+
+#main-nika-img:hover{
+    transform: scale(1.02);
+}
+
+#footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#goa-info{
+    font-size:23px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#img-a{
+    transition: 0.5s;
+}
+
+#img-a:hover{
+    transform: scale(1.05);
+}
+
+#goa-courses{
+    font-size: 23px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#goa-reccom{
+    font-size: 23px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#logos-div{
+    font-size: 40px;
+    display: flex;
+    gap: 35px;
+}
+
+.fa-brands{
+    border: 0.2px solid rgb(145, 142, 142);
+    padding: 8px 16px;
+    border-radius: 15px;
+    transition: 0.5s;
+    /* color:; */
+}
+
+.fa-brands:hover{
+    transform: scale(1.2);
+    
+}
+
+.fa-facebook{
+    color:#1877F2;
+}
+
+.fa-tiktok{
+    color: #EE1D52
+}
+
+.fa-instagram{
+    color: #F58529;
+}
+
+.fa-youtube{
+    color: #FF0000;
+}
+
+#footer-p{
+    user-select: none; /* For modern browsers */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none
+}
+
+/* marque style */
+
+#marque-div{
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+    align-items: center;
+}
+
+#marque-p1{
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    font-size: 19px;
+}
+
+#me{
+    font-size: 19px;
+}
+
+#gelena{
+    font-size: 19px;
+}
+
+#nika{
+    font-size: 19px;
+}
+
+#davit{
+    font-size: 19px;
+}
+
+/* @media only screen and (max-width:1114px){
+    #img-div{
+        display: none;
+    }
+
+    #nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width:1523px){
+    #main-nika-img{
+        display: none;
+    }
+    .main-texts{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:1327px){
+    #text-div{
+        position: relative;
+        left: 50px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    #text-div{
+        position: relative;
+        bottom: 150px;
+    }
+}
+
+@media only screen and (max-width:1010px){
+    #main{
+        height: 150%;
+    }
+    .main-texts{
+        position: relative;
+        bottom: 300px;
+    }
+    #logos-div{
+        position: relative;
+        bottom: 150px;
+    }
+    h1{
+        position: relative;
+        bottom: 325px;
+    }
+    #text-div{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .main-texts{
+        position: relative;
+        bottom: 80px;
+    }
+    #logos-div{
+        position: relative;
+        bottom: 50px;
+    }
+    h1{
+        position: relative;
+        bottom: 95px;
+    }
+}
+
+@media only screen and (max-width:840px){
+    .main-texts{
+        position: relative;
+        bottom: 50px;
+    }
+    #logos-div{
+        position: relative;
+        bottom: 50px;
+    }
+    h1{
+        position: relative;
+        bottom: 65px;
+    }
+}
+
+@media only screen and (max-width:788px){
+    #nav-btns-div{
+        display: none;
+    }
+    ul{
+        align-items: center;
+    }
+    #first-link{
+        position: relative;
+        bottom: 25px;
+        left: 105px;
+    }
+    
+    #second-link{
+        position: relative;
+        top: 15px;
+    }
+
+    #third-link{
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+    }
+    #fourth-link{
+        position: relative;
+        top: 20px;
+        right: 70px;
+    }
+} */
+
+/* responsive style */
+
+@media only screen and (max-width:1367px){
+    #main{
+        height: 110%;
+    }
+}
+
+ @media only screen and (max-width:1114px){
+    #img-div{
+        display: none;
+    }
+
+    #nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width:788px){
+    #nav-btns-div{
+        display: none;
+    }
+    ul{
+        align-items: center;
+    }
+    #first-link{
+        position: relative;
+        bottom: 25px;
+        left: 105px;
+    }
+    
+    #second-link{
+        position: relative;
+        top: 15px;
+    }
+
+    #third-link{
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+    }
+    #fourth-link{
+        position: relative;
+        top: 20px;
+        right: 70px;
+    }
+}
+
+@media (max-width: 427px) {
+    #main{
+        height: 160%;
+    }
+    #text-p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 638px) {
+    #main{
+        height: 140%;
+    }
+}
+
+@media (max-width: 1125px) {
+    #main-nika-img{
+        display: none
+    }
+}
+
+@media (max-width: 768px) {
+    
+
+    #text-div {
+        text-align: center;
+    }
+
+    #nika-img-div {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #nav-goa-img {
+        width: 40px;
+    }
+
+    .main-texts {
+        font-size: 14px;
+    }
+
+    #footer p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 99vh;
+    background-color: #c9d1c8;
+    font-family:"nunito";
+}
+
+/* nav bar style */
+#nav{
+    width: 100%;
+    height: 120px;
+    background-color: #304040;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* image style */
+#img-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+#nav-goa-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+/* lists and links style */
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.8s;
+}
+
+ul:hover{
+    transform: scale(1.2);
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+.links-a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    transition: 0.8s;
+}
+
+a:hover{
+    color: #c9d1c8;
+    transform: scale(1.2);
+}
+
+#nav-p{
+    color: white;
+    font-size: 25px;
+}
+
+#nav-btns-div{
+    margin-right: 100px;
+}
+
+/* btn's style */
+
+.register-btns-div{
+    font-size: 19px;
+    padding: 19px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.register-btns-div:hover{
+    transform: scale(1.15);
+}
+
+#register-btn{
+    background-color: white;
+    transition: 0.5s;
+}
+
+#login-btn{
+    background-color: #04202c;
+    color: white;
+    transition: 0.5s;
+}
+
+#register-btn:hover {
+    background-color: #04202c;
+    color: white;
+}
+
+#login-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#main{
+    width: 100%;
+    height: 82.6%;
+}
+
+#footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#footer-p{
+    user-select: none; /* For modern browsers */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none
+}
+
+#parent-div{
+    width: 100%;
+    height: 82.6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* position: relative;
+    top: 200px; */
+}
+
+.divs{
+    width: 350px;
+    height: 450px;
+    background-color: #5b7064;
+    box-shadow: 3px 3px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    position: relative;
+    top: 45px;
+}
+
+.imgs{
+    width: 270px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.divs-a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.divs-a:hover{
+    transform: scale(1.1);
+}
+
+.text-p{
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+}
+
+.click-p{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+#marque-div{
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+    align-items: center;
+}
+
+#marque-p1{
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    font-size: 19px;
+}
+
+#me{
+    font-size: 19px;
+}
+
+#gelena{
+    font-size: 19px;
+}
+
+#nika{
+    font-size: 19px;
+}
+
+#davit{
+    font-size: 19px;
+}

@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 99vh;
+    background-color: #c9d1c8;
+    font-family:"nunito";
+}
+
+/* nav bar style */
+#nav{
+    width: 100%;
+    height: 120px;
+    background-color: #304040;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+
+
+/* image style */
+#img-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+#nav-goa-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+/* lists and links style */
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.8s;
+}
+
+ul:hover{
+    transform: scale(1.2);
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+.links-a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    transition: 0.8s;
+}
+
+a:hover{
+    color: #c9d1c8;
+    transform: scale(1.2);
+}
+
+#nav-p{
+    color: white;
+    font-size: 25px;
+}
+
+#nav-btns-div{
+    margin-right: 100px;
+}
+
+/* btn's style */
+
+.register-btns-div{
+    font-size: 19px;
+    padding: 19px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.register-btns-div:hover{
+    transform: scale(1.15);
+}
+
+#register-btn{
+    background-color: white;
+    transition: 0.5s;
+}
+
+#login-btn{
+    background-color: #04202c;
+    color: white;
+    transition: 0.5s;
+}
+
+#register-btn:hover {
+    background-color: #04202c;
+    color: white;
+}
+
+#login-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#footer-p{
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    font-size: 19px;
+}
+
+
+/* For modern browsers */
+/* For Safari */
+/* For Firefox */
+
+#main{
+    width: 100%;
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgs{
+    width: 280px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+.all-sport{
+    width: 350px;
+    height: 450px;
+    background-color: #5b7064;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: 9;
+    position: relative;
+    top: 50px;
+}
+
+.all-sport2{
+    text-decoration: none;
+    font-size: 27px;
+    color: white;
+}
+
+.divs-a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.divs-a:hover{
+    transform: scale(1.1);
+}
+
+.price{
+    font-size: 25px;
+    color: rgb(7, 7, 196);
+    text-decoration: none;
+}
+
+.sport_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+  ::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-track{
+    background: #304040;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#5b7064;
+    border-radius: 10px;
+}
+
+#marque-div{
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+    align-items: center;
+}
+
+#marque-p1{
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    font-size: 19px;
+}
+
+#me{
+    font-size: 19px;
+}
+
+#gelena{
+    font-size: 19px;
+}
+
+#nika{
+    font-size: 19px;
+}
+
+#davit{
+    font-size: 19px;
+}
+
+@media only screen and (max-width:1114px){
+    #img-div{
+        display: none;
+    }
+
+    #nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width:1470px){
+    #main{
+        height: 230%;
+    }
+    #upper-div{
+        row-gap: 30px;
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    #below-div{
+        row-gap: 30px;
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+}
+
+@media only screen and (max-width:788px){
+    #nav-btns-div{
+        display: none;
+    }
+    ul{
+        align-items: center;
+    }
+    #first-link{
+        position: relative;
+        bottom: 25px;
+        left: 105px;
+    }
+    
+    #second-link{
+        position: relative;
+        top: 15px;
+    }
+
+    #third-link{
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+    }
+    #fourth-link{
+        position: relative;
+        top: 20px;
+        right: 70px;
+    }
+}
+
+@media only screen and (max-width:742px){
+    #main{
+        height: 450%;
+    }
+    #upper-div{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #below-div{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

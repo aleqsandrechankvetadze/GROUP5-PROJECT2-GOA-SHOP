@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 99vh;
+    background-color: #c9d1c8;
+    font-family:"nunito";
+}
+
+/* nav bar style */
+#nav{
+    width: 100%;
+    height: 120px;
+    background-color: #304040;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* image style */
+#img-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+#nav-goa-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+/* lists and links style */
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.8s;
+}
+
+ul:hover{
+    transform: scale(1.2);
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+.links-a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    transition: 0.8s;
+}
+
+a:hover{
+    color: #c9d1c8;
+    transform: scale(1.2);
+}
+
+#nav-p{
+    color: white;
+    font-size: 25px;
+}
+
+#nav-btns-div{
+    margin-right: 100px;
+}
+
+/* btn's style */
+
+.register-btns-div{
+    font-size: 19px;
+    padding: 19px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.register-btns-div:hover{
+    transform: scale(1.15);
+}
+
+#register-btn{
+    background-color: white;
+    transition: 0.5s;
+}
+
+#login-btn{
+    background-color: #04202c;
+    color: white;
+    transition: 0.5s;
+}
+
+#register-btn:hover {
+    background-color: #04202c;
+    color: white;
+}
+
+#login-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+ /*  */
+
+#main{
+    width: 100%;
+    height: 82.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-parent-div{
+    width: 1450px;
+    height: 750px;
+    position: relative;
+    top: 25px;
+    border-radius: 20px;
+    background-color: #5b7064;
+    display: flex;
+    
+}
+
+#img{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    top: 110px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#img:hover{
+    transform: scale(1.05);
+}
+
+#car-name{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right:930px;
+    bottom: 625px;
+}
+
+#back{
+    width: 230px;
+    height: 70px;
+    position: relative;
+    right: 480px;
+    top: 175px;
+    font-size: 25px;
+    color: white;
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#back:hover{
+    background-color: #3b3bc4;
+    transform: scale(1.1);
+}
+
+#next{
+    width: 230px;
+    height: 70px;
+    position: relative;
+    left: 270px;
+    top: 105px;
+    font-size: 25px;
+    color: white;
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#next:hover{
+    background-color: #3b3bc4;
+    transform: scale(1.1);
+}
+
+#dzviria-btn{
+    width: 130px;
+    height: 50px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(147, 247, 17);
+    font-size: 22px;
+    position: relative;
+    right: 150px;
+    top: 195px;
+}
+
+#price{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    right: 410px;
+    top: 200px;
+}
+
+#logos{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.logos{
+    position: relative;
+    right:515px;
+    top: 250px;
+}
+
+
+#text1{
+    display: flex;
+    gap: 50px;
+}
+
+.key{
+    color: white;
+    font-size: 19px;
+}
+
+.value{
+    color: white;
+    font-size: 19px;
+}
+
+#text2{
+    display: flex;
+    gap: 100px;
+}
+
+#text3{
+    display: flex;
+    gap: 150px;
+}
+
+#text4{
+    display: flex;
+    gap: 105px;
+}
+
+#text5{
+    display: flex;
+    gap: 115px;
+}
+
+#text6{
+    display: flex;
+    gap: 140px;
+}
+
+#text7{
+    display: flex;
+    gap: 115px;
+}
+
+#text8{
+    display: flex;
+    gap: 100px;
+}
+
+#text9{
+    display: flex;
+    gap: 160px;
+}
+
+h1{
+    color: white;
+    position: relative;
+    left:30px;
+}
+
+#texts-main{
+    width: 300px;
+    height: 90%;
+    position: relative;
+    top: 30px;
+    right: 60px;
+}
+
+#buy-btn{
+    width: 200px;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+    right: 550px;
+    bottom: 150px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#buy-btn:hover{
+    background-color: #3b3bc4;
+    transform: scale(1.1);
+}
+
+#footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    top: 155px;
+}
+
+#footer-p{
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    font-size: 19px;
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-track{
+    background: #304040;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#5b7064;
+    border-radius: 10px;
+}
+
+#marque-div{
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+    align-items: center;
+}
+
+#marque-p1{
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    font-size: 19px;
+}
+
+#me{
+    font-size: 19px;
+}
+
+#gelena{
+    font-size: 19px;
+}
+
+#nika{
+    font-size: 19px;
+}
+
+#davit{
+    font-size: 19px;
+}
